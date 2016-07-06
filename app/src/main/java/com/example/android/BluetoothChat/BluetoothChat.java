@@ -41,7 +41,7 @@ import android.widget.Toast;
 
 /**
  * This is the main Activity that displays the current chat session.
- * ??? ?? 
+ * 한글로 수정
  */
 public class BluetoothChat extends Activity {
     // Debugging
@@ -259,7 +259,7 @@ public class BluetoothChat extends Activity {
         if (mChatService != null) mChatService.stop();
         if(D) Log.e(TAG, "--- ON DESTROY ---");
 
-        
+
     }
 
     private void ensureDiscoverable() {
