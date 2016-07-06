@@ -258,6 +258,8 @@ public class BluetoothChat extends Activity {
         // Stop the Bluetooth chat services
         if (mChatService != null) mChatService.stop();
         if(D) Log.e(TAG, "--- ON DESTROY ---");
+
+        
     }
 
     private void ensureDiscoverable() {
